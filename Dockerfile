@@ -1,5 +1,5 @@
 FROM nginx
 EXPOSE 80
 MAINTAINER chandana
-LABELS webapp
+LABEL app = 'webapp'
 COPY index.html /usr/share/nginx/html
